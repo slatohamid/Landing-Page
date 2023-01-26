@@ -1,0 +1,90 @@
+
+@font-face {
+  font-family: 'office_code_proregular';
+  src: url('/fonts/webofficecodepro-regular-webfont.eot');
+  src: url('/fonts/') format('embedded-opentype'),
+  
+       url(fonts/officecodepro_regular_macroman/officecodepro-regular-webfont.woff),
+
+       url('fonts/officecodepro-regular-webfont.ttf') format('truetype'),
+       url('fonts/officecodepro-regular-webfont.ttf') format('truetype'),
+
+       url('fonts/officecodepro-regular-webfont.svg#office_code_proregular') format('svg');
+       url
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'office_code_proregular';
+  }
+  a
+  {
+    text-decoration: none;
+    font-size: 0,2em;
+    font-weight: 900;
+  } 
+  .menu 
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }  .menu-container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #1E1E1E;
+    padding: 20px 0;
+    
+  }
+  
+  .logo
+  {
+   padding: 0px 40px 0px 40px;
+   
+  }
+
+  .links {
+   
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-right: 80px;
+    text-align: center;
+    font-family: 'office_code_proregular';
+  }
+  em: {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+ 
+  .header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+  /* .login {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .date
+  {
+    margin-right: 20px;
+  } *\
