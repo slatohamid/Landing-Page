@@ -1,0 +1,265 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+H1,
+h2,
+h3 {
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.header,
+.footer {
+  display: grid;
+  container-type: inline-size;
+  max-width: 100%;
+  text-align: justify;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.Logo {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  font-size: large;
+  margin-left: auto;
+  padding-right: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  gap: 30px;
+}
+
+.text-header {
+  max-width: 100%;
+  padding-right: 1rem;
+}
+.headerLink {
+}
+h1 {
+  font-size: 44px bold;
+  color: #f9faf8;
+}
+
+.button1 {
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  border: 1.5px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.even-columns-header {
+  display: grid;
+  container-type: inline-size;
+  max-width: 100%;
+  text-align: justify;
+  background-color: #1f2937;
+  color: #f9faf8;
+  box-shadow: 0px 3px 25px 0 #1f2937, 4px 15px 0px;
+  padding-bottom: 30px;
+}
+
+.coding {
+  display: flex;
+  justify-content: center;
+}
+.size {
+  width: 350px;
+  height: 190px;
+
+  border: 1.5px solid #3881f6;
+  border-radius: 15px;
+}
+
+.even-columns-header {
+  display: grid;
+  container-type: inline-size;
+
+  max-width: 100%;
+  padding-left: 2rem;
+  text-align: justify;
+  font-size: small;
+}
+.even-columns {
+  display: grid;
+  container-type: inline-size;
+
+  max-width: 100%;
+
+  text-align: justify;
+}
+
+@media (min-width: 35em) {
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  .section2boximg {
+    width: 75px;
+    height: 75px;
+    border: 1.5px solid #3881f6;
+    border-radius: 15px;
+  }
+
+  .even-columns-header {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
+
+.section2boximg {
+  width: 120px;
+  height: 120px;
+  border: 1.5px solid #3881f6;
+  border-radius: 15px;
+  display: flex;
+}
+.card {
+  padding: 2rem;
+  color: rgb(1, 53, 27);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+/* added to help visualize the widths */
+
+h3 {
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+/* =========================
+     GENERAL STYLES 
+     NOT RELATED TO THE TUTORIAL
+  ============================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(95%, 45rem);
+  margin: 0 auto;
+}
+
+.col,
+.card {
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  margin: 30px;
+}
+
+.call-to-action > .btn {
+  grid-column: 2 / 3;
+  grid-row: 1/3;
+  align-self: center;
+}
+
+/* @container (inline-size < 600px)
+.call-to-action {
+  background: purple;
+}
+*/
+
+.quote {
+  display: grid;
+  container-type: inline-size;
+  background-color: #e5e7eb;
+
+  justify-content: center;
+
+  line-height: 160%;
+  height: 190px;
+  box-shadow: 0px 3px 15px 0 #1f2937;
+
+  align-items: center;
+}
+
+.quote-text {
+  align-items: center;
+  width: auto;
+  font-size: 26px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0 30px 0 30px;
+}
+.author {
+  text-align: right;
+  margin-right: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.card-footer {
+  display: grid;
+  container-type: inline-size;
+
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-align: justify;
+
+  padding: 5px;
+
+  background-color: #3881f6;
+
+  border-radius: 10px;
+  height: 180px;
+}
+
+.call-to {
+  display: flex;
+
+  color: #f9faf8;
+
+  text-align: left;
+}
+
+.button-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 8px;
+  border: 1.5px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.footer {
+  display: grid;
+  container-type: inline-size;
+  padding: 10px;
+
+  height: 5%;
+
+  text-align: center;
+  justify-content: center;
+
+  align-items: center;
+}
